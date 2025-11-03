@@ -80,7 +80,7 @@ DATABASES = {
         'NAME': 'property_db',
         'USER': 'property_user',
         'PASSWORD': 'property_pass',
-        'HOST': 'db',  # Service name in docker-compose
+        'HOST': 'localhost',  # Service name in docker-compose
         'PORT': 5432,
     }
 }
